@@ -119,16 +119,43 @@
             
             <!-- Section Title -->
             <div class="section-title">
-                <h1>we are newave!!</h1>
+                <h1>ANIMALYMPICS</h1>
                 <span class="border"></span>
-                <p>We're a close team of creatives, designers & developers who work together to create beautiful, engaging digital experiences. We take pride in delivering only the best.</p>
+                <p>Watch all the action unfold right here on our twitch channel!</p>
             </div>				
 			<!--/Section Title -->
 			
             <div class="screens">
-            <div class="small-screen-left"><img class="element_from_left" src="images/small_left_screen.png" alt="" /></div>		
-			<div class="small-screen-right"><img class="element_from_right" src="images/small_right_screen.png" alt="" /></div>
-            <div class="big-screen"><img class="element_fade_in" src="images/big_screen.png" alt="" /></div>
+                <style>
+             
+                    #twitch-embed-container {
+                      width: 80%;
+                      max-width: 854px;
+                      position: center;
+                      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+                    }
+                    #twitch-embed {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    }
+                  </style>
+                </head>
+             
+                  <div id="twitch-embed-container">
+                    <div id="twitch-embed"></div>
+                  </div>
+                  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                  <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                      width: "100%",
+                      height: "100%",
+                      channel: "animalympics",
+                      layout: "video",
+                    });
+                  </script>
             </div>
             
 		</div>
