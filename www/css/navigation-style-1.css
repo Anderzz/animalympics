@@ -14,17 +14,41 @@
 		image-rendering: auto;
 	}
 	
-	
-	
-	#logo a{
+#logo {
+    background: url(../images/logonew1.png) no-repeat center center;
+    background-size: contain; /* Adjust to keep the aspect ratio */
+    position: absolute; /* or relative depending on how you want it positioned within the header */
+    width: 145px;
+    height: 145px;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the logo horizontally */
+    z-index: 1; /* Ensure it appears above other elements if necessary */
+    display: block;
+    top: -45px; /* Adjust this value to move it higher or lower */
+}
+
+
+	/*
+	#logo {
+		background:url(../images/logonew.png) 0 0px #ffffff;
+		background-size:65px 65px;
+		position:absolute;
 		width:65px;
 		height:65px;
-		position:absolute;
-	}
+		left:50%;
+		margin-left:-32px;
+		z-index:100;
+		display:block;
+		border: 3px solid #fff;
+		border-radius: 50%; 
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.5); 
+		transition: all 0.5s ease; 
+		transform: scale(1.0); 
+	}*/
 	
-	.logo-back {
-		transform: rotateY(-180deg);
-	}
+	
+
+	
 
 	#navigation-sticky-wrapper {
 		height:45px;
