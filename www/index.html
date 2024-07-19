@@ -86,19 +86,13 @@
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="menu-1"><a class="colapse-menu1" href="#home">Home</a></li>
-							<li class="menu-2"><a class="colapse-menu1" href="#we-are-newave">About</a></li>
-							<li class="menu-3"><a class="colapse-menu1" href="#services">Services</a></li>
-							<li class="menu-4"><a class="colapse-menu1" href="#clients">Clients</a></li>
-							<li class="menu-5"><a class="colapse-menu1" href="#portfolio">Portfolio</a></li>
-							<li class="menu-6"><a class="colapse-menu1" href="#contact-parallax">Contact</a></li>
-                            <li class="dropdown menu-7"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog</a>
-                            	<ul class="dropdown-menu">
-                                  <li><a class="external" href="blog.html">Blog standard</a></li>
-                                  <li><a class="external" href="blog-masonry.html">Blog Masonry</a></li>
-                                  <li><a class="external" href="blog-post.html">Blog post page </a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-8"><a class="external" href="shortcodes.html">Shortcodes</a></li>
+							<li class="menu-2"><a class="colapse-menu1" href="#we-are-newave">Stream</a></li>
+							<li class="menu-3"><a class="colapse-menu1" href="#we-are-good-at">Events</a></li>
+							<li class="menu-4"><a class="colapse-menu1" href="#our-team">Participants</a></li>
+                            <li class="menu-5"><a class="colapse-menu1" href="#services">$ANIMAL</a></li>
+                            <li class="menu-6"><a class="colapse-menu1" href="#clients">Betting</a></li>
+							<li class="menu-7"><a class="colapse-menu1" href="#contact-parallax">Medium</a></li>
+                            <li class="menu-8"><a class="external" href="shortcodes.html">Whitepaper</a></li>
 						</ul>
 					</div>
 				</div>
@@ -112,58 +106,63 @@
     
     
 	<!-- We Are Newave -->
-	<section id="we-are-newave">
-		
-        <!-- Container -->
-		<div class="container">
-            
-            <!-- Section Title -->
-            <div class="section-title">
-                <h1>ANIMALYMPICS</h1>
-                <span class="border"></span>
-                <p>Watch all the action unfold right here on our twitc channel!</p>
-            </div>				
-			<!--/Section Title -->
-			
-            <div class="screens">
-                <style>
-             
-                    #twitch-embed-container {
-                      width: 80%;
-                      max-width: 854px;
-                      position: center;
-                      padding-top: 56.25%; /* 16:9 Aspect Ratio */
-                    }
-                    #twitch-embed {
-                      position: absolute;
-                      top: 0;
-                      left: 0;
-                      width: 100%;
-                      height: 100%;
-                    }
-                  </style>
-                </head>
-             
-                  <div id="twitch-embed-container">
-                    <div id="twitch-embed"></div>
-                  </div>
-                  <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                  <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                      width: "100%",
-                      height: "100%",
-                      channel: "animalympics",
-                      layout: "video",
-                    });
-                  </script>
-            </div>
-            
-		</div>
-        <!--/Container -->
-        
-	</section>	
-	<!--/We Are Newave -->
+
     
+
+</head>
+<body>
+    <style>
+        #we-are-newave {
+            background: url('../images/background.jpg') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+
+<section id="we-are-newave">
+    <!-- Container -->
+    <div class="container">
+        <!-- Section Title -->
+        <div class="section-title">
+            <h1>ANIMALYMPICS</h1>
+            <span class="border"></span>
+            <p>Watch all the action unfold right here on our twitch channel!</p>
+        </div>
+        <!--/Section Title -->
+
+        <div class="screens">
+            <style>
+                #twitch-embed-container {
+                    width: 50%; /* Half of the screen */
+                    max-width: 854px;
+                    margin: 0 auto; /* Center horizontally */
+                    position: relative;
+                    padding-top: 28.125%; /* 16:9 Aspect Ratio for half the height */
+                }
+                #twitch-embed {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+            <div id="twitch-embed-container">
+                <div id="twitch-embed"></div>
+            </div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: "100%",
+                    height: "100%",
+                    channel: "animalympics",
+                    layout: "video",
+                });
+            </script>
+        </div>
+    </div>
+    <!--/Container -->
+</section>
+
     
     
     
@@ -178,68 +177,91 @@
     <!-- We are good at -->
     <section id="we-are-good-at">
 		
-        <!-- Container -->
-		<div class="container small-width">
+        <div class="container">
             
             <!-- Section Title -->
             <div class="section-title">
-                <h1>We are good at</h1>
+                <h1>Animalympics Events!</h1>
                 <span class="border"></span>
-                <p>We're an agency born out of a passion to make great products. We help companies and startups from all over the world materialize their ideas into great projects</p>
+                <p>Here is the current Animalympic Events!
+                </p>
             </div>				
 			<!--/Section Title -->
-            		
+			
+            	
+			<ul class="our-team">
+            
+                <li class="team-person element_from_left">                
+                    <a href="images/team1.png">
+                        <img src="images/team1.png" alt="" />                    
+                    </a>
+                 
+                    <h5>Amanda White</h5>
+                    	<p>Web Designer</p>
                     
-                    <div class="one_half">
+                </li>
+                
+                
+                
+                <li class="team-person element_from_left">                
+                    <a href="images/swimming.png">
+                        <img src="images/swimming.png" alt="" />                    
+                    </a>
+                 
+                    <h5>Swimming</h5>
+                    	<p>Web Designer</p>
                     
-                    <!-- Progress Bar -->
-					<div class="skills">
-						<ul class="bar">
-                        
-                            <li>
-                                <div class="bar-wrap"><span data-width="80"><strong>Brand Identity 80%</strong></span></div>
-                            </li> 
-                            <li>                                    
-                                <div class="bar-wrap"><span data-width="100"><strong>Mobile & Web Design 100%</strong></span></div>
-                            </li>
-                            <li>
-                                <div class="bar-wrap"><span data-width="70"><strong>User Experience 70%</strong></span></div>
-                            </li>
-                             
-						</ul>
-					</div>	
-					<!--/Progress Bar -->
+                </li>
+                
+                
+                
+  
+            
+                <li class="team-person element_from_right">                
+                	<img src="images/team3.png" alt="" />                    
+                    <div class="team-profile">                    
+                    	<h5>Martin Lawrence</h5>
+                    	<p>Developer</p>
+                        <p class="about-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus.</p>                        
+                        <ul class="socials-icons">
+                        	<li><a href="#"><img src="images/facebook.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/google.png" alt="" /></a></li>
+                        </ul>
+                	</div>                
+                </li>
+                
+                <li class="team-person element_from_left">                
+                    <a href="images/soccer.jpg">
+                        <img src="images/soccer.jpg" alt="" />                    
+                    </a>
+                 
+                    <h5>Soccer</h5>
+                    	<p>In the soccer event each animal will have 2 minutes to score as many goals as possible.</p>
                     
-                    </div>
-                    
-                    
-                    
-                    <div class="one_half last">
-                    
-                    <!-- Progress Bar -->
-					<div class="skills">
-						<ul class="bar">
-                             
-                            <li>
-                                <div class="bar-wrap"><span data-width="70"><strong>iOS Development 70%</strong></span></div>
-                            </li> 
-                            <li>
-                                <div class="bar-wrap"><span data-width="90"><strong>Photography 90%</strong></span></div>
-                            </li>
-                            <li>
-                                <div class="bar-wrap"><span data-width="80"><strong>Video Production 80%</strong></span></div>
-                            </li>
-                             
-						</ul>
-					</div>	
-					<!--/Progress Bar -->
-                    
-                    </div>
+                </li>
+                
+                
+                
+            
+            </ul>				
 			
 		</div>
         <!--/Container -->
         
 	</section>	
+	<!--/Our Team -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
 	<!--/We are good at -->
 	
     
@@ -260,29 +282,25 @@
             
             <!-- Section Title -->
             <div class="section-title">
-                <h1>Our team</h1>
+                <h1>Competitors</h1>
                 <span class="border"></span>
-                <p>We're a small, friendly and talented team. We craft beautiful digital solutions for awesome clients across all the platforms.</p>
+                <p>Here is the current lineup of Animalympic athletes!
+                </p>
             </div>				
 			<!--/Section Title -->
 			
             	
 			<ul class="our-team">
             
-            	<li class="team-person element_from_left">                
-                	<img src="images/team1.png" alt="" />                    
-                    <div class="team-profile">                    
-                    	<h5>Michael Broad</h5>
-                    	<p>CEO Founder</p>
-                        <p class="about-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus.</p>                        
-                        <ul class="socials-icons">
-                        	<li><a href="#"><img src="images/facebook.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/twitter.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/google.png" alt="" /></a></li>
-                        </ul>                        
-                	</div>                
+                <li class="team-person element_from_left">                
+                    <a href="images/team1.png">
+                        <img src="images/team1.png" alt="" />                    
+                    </a>
+                 
+                    <h5>Amanda White</h5>
+                    	<p>Web Designer</p>
+                    
                 </li>
-                
                 
                 
                 
@@ -302,7 +320,21 @@
                 
                 
                 
-                
+  
+            
+                <li class="team-person element_from_right">                
+                	<img src="images/team3.png" alt="" />                    
+                    <div class="team-profile">                    
+                    	<h5>Martin Lawrence</h5>
+                    	<p>Developer</p>
+                        <p class="about-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus.</p>                        
+                        <ul class="socials-icons">
+                        	<li><a href="#"><img src="images/facebook.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/google.png" alt="" /></a></li>
+                        </ul>
+                	</div>                
+                </li>
                 <li class="team-person element_from_right">                
                 	<img src="images/team3.png" alt="" />                    
                     <div class="team-profile">                    
@@ -336,29 +368,7 @@
     
     
     
-    <!-- Newsletter -->
-    <section id="newsletter">
-    
-    
-    	<!-- Container -->
-		<div class="container small-width">
-        
-        	<div class="newsletter-left">
-    
-    			<input type="text" value="Enter your e-mail" onblur="if(this.value == '') { this.value = 'Enter your e-mail'; }" onfocus="if(this.value == 'Enter your e-mail') { this.value = ''; }" size="30">
-    		
-            </div>
-            
-            <div class="newsletter-right">
-            
-    			<a class="newave-button medium outline white">Subscribe now</a>
-            
-            </div>
-    
-    	</div>
-        <!--/Container -->
-    
-    </section>
+
     <!-- /Newsletter -->
     
     
@@ -372,7 +382,7 @@
     
 	
 	<!-- Twitter Parallax -->
-	<div id="twitter-parallax" class="parallax" style="background-image: url('images/separator1.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+	<div id="twitter-parallax" class="parallax" style="background-image: url('images/separator1.png');" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="1">
 	
     <div class="parallax-overlay">    	
         <div class="container">
@@ -385,7 +395,7 @@
                 </div>
                 <!--/Twitter Slider -->               
                 
-                <p>@envato</p>            
+                <p>@AnimalympicsETH</p>            
             </div>
             
         </div>
@@ -414,9 +424,9 @@
 			
             <!-- Section Title -->
             <div class="section-title">
-                <h1>Services</h1>
+                <h1>$ANIMAL</h1>
                 <span class="border"></span>
-                <p>We believe that apps and websites should not only be eye catching but actually provide a great user experience that users will remember.</p>
+                <p>The Animalympic token is called $ANIMAL. This is the token you use to bet on our events</p>
             </div>				
 			<!--/Section Title -->
             
@@ -427,10 +437,10 @@
             	<div class="service-item text-right element_from_left">
                     <span class="fa-stack fa-3x right">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-cog fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa fa-code fa-stack-1x fa-inverse service-icon"></i>
                     </span>
-                    <h5>Identity & Branding</h5>
-                    <p>A beautiful product needs to be complemented with a great branding. Our design team will help you create it</p>
+                    <h5>Chain</h5>
+                    <p>Ethereum product needs to be complemented with a great branding. Our design team will help you create it</p>
                 </div>
                 
                 <div class="service-item text-right element_from_left">
@@ -520,9 +530,9 @@
 			
             <!-- Section Title -->
             <div class="section-title">
-                <h1>Clients</h1>
+                <h1>Animalympics Betting</h1>
                 <span class="border"></span>
-                <p>We work with great brands. Close partnerships with really cool clients let us do world-class work.</p>
+                <p>Animalympics allows you to seamlessly bet on all of our livestreamed events very easily directly on Telegram.</p>
             </div>				
 			<!--/Section Title -->
             

@@ -850,9 +850,11 @@
 	#home.parallax-slider {
 		height:auto;
 	}
-	
+	#we-are-newave {
+		background-color:#866565;
+	}
 	#we-are-good-at {
-		background-color:#FFF;
+		background-color:#ffffff;
 	}
 	
 	#services {
@@ -1208,35 +1210,11 @@
 
 /* We are Newave */
 	
-	.screens {
-		position:relative;
+	#we-are-newave {
+		background: url('../images/background.png') no-repeat center center;
+		background-size: cover;
 	}
-	
-	.big-screen {
-		width:620px;
-		height:auto;
-		margin:0 auto;
-		z-index:100;
-	}
-	
-	.small-screen-left {
-		width:350px;
-		height:auto;
-		position:absolute;
-		left:0;
-		top:120px;
-		z-index:0;
-	}
-	
-	.small-screen-right {
-		width:350px;
-		height:auto;
-		position:absolute;
-		right:0;
-		top:120px;
-		z-index:0;
-	}
-	
+
 
 
 
@@ -1311,12 +1289,15 @@
 	}
 
 	.our-team li img {
-		display:block;
-		border-radius:3px;
-		position:relative;
-		z-index:0;
-		float:left;
+		display: block;
+		border-radius: 3px;
+		position: relative;
+		z-index: 0;
+		float: left;
+		size: 420%;
+
 	}
+	
 	
 	.team-profile {
 		height:200px;
@@ -1450,7 +1431,7 @@
 	}
 	
 	.twitter-feed-icon img:hover {
-		opacity:1;
+		opacity:0.1;
 	}
 	
 	.twitter-feed .bx-wrapper .bx-controls-direction a {
@@ -1464,7 +1445,7 @@
 		margin-top:90px;
 		background: url(images/slider_left_white.png) no-repeat;
 		background-size:18px 34px;
-		opacity:0.5;
+		opacity:0.1;
 		transition:all 0.3s ease 0s;
 		-moz-transition:all 0.3s ease 0s;
     	-webkit-transition:all 0.3s ease 0s;
@@ -1488,7 +1469,7 @@
 	}
 	
 	.twitter-feed .bx-wrapper .bx-prev:hover, .twitter-feed .bx-wrapper .bx-next:hover {
-		opacity:1;
+		opacity:0.1;
 	}
 	
 	.twitter-feed .bx-wrapper .bx-next:hover {
