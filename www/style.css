@@ -212,7 +212,7 @@
 		z-index:100000;
 	}
 	
-	#loader {
+	/* #loader {
 		background:url(images/newave-loading.gif) center center no-repeat;
 		height: 50px;
 		width: 50px;
@@ -220,8 +220,16 @@
 		top: 50%;
 		position: absolute;
 		margin: -25px 0 0 -25px;
+	} */
+	#loader {
+		background:url(images/logo-loading.gif) center center no-repeat;
+		height: 140px;
+		width: 140px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		margin: -25px 0 0 -25px;
 	}
-
 	
 	
 /* Shortcodes */

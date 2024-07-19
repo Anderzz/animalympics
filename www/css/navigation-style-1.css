@@ -2,7 +2,7 @@
 /* Navigation Style 1 */
 	
 	#logo {
-		background:url(../images/logonew.png) no-repeat 0 0px ;
+		background:url(../images/logonew.png) no-repeat center center ;
 		background-size:85px 85px;
 		position:absolute;
 		width:110px;
@@ -11,25 +11,9 @@
 		margin-left:-32px;
 		z-index:0;
 		display:block;
-		
+		image-rendering: auto;
 	}
-	/*
-	#logo {
-		background:url(../images/logonew.png) 0 0px #ffffff;
-		background-size:65px 65px;
-		position:absolute;
-		width:65px;
-		height:65px;
-		left:50%;
-		margin-left:-32px;
-		z-index:100;
-		display:block;
-		border: 3px solid #fff;
-		border-radius: 50%; 
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.5); 
-		transition: all 0.5s ease; 
-		transform: scale(1.0); 
-	}*/
+	
 	
 	
 	#logo a{
